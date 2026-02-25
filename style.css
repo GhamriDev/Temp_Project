@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.changa-one-regular {
+  font-family: "Changa One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.changa-one-regular-italic {
+  font-family: "Changa One", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+header{
+    background-color: black;
+    padding: 20px;
+}
+
+.left {
+    float: left;
+}
+.right{
+    float: right;
+}
+.clr-fix{
+    clear: both;
+}
+.profile{
+    width: 150px;
+    margin-top: 10px;
+
+}
+
+.profile .header-img{
+    width: 100%;
+    border: 5px solid coral;
+
+    border-radius: 50%;
+
+}
+
+.header-site{
+    color: aliceblue;
+    width: 30%;
+    font-family: "Changa One";
+    font-size: 50px;
+    letter-spacing: 10px;
+    margin-left: 70px;
+    margin-top: 30px;
+    border-right: 10px solid coral;
+    padding-right: 30px;
+}
+
+.header-site::first-letter{
+    color: coral;
+}
+
+.header-right{
+    width: 45%;
+    color: white;
+    text-align: center;
+    margin-right: 120px;
+    margin-top: 50px;
+    letter-spacing: 5px;
+}
+
+.header-name, .header-description{
+    display: block;
+    font-family: "Changa One";
+}
+.header-name{
+    font-size: 50px;
+}
+.header-description{
+        font-size: 30px;
+        font-weight: lighter;
+
+}
